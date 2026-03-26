@@ -1,0 +1,339 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>mmja の直前が非境界形態素である全35例</title>
+<style>
+  :root { --red: #C84B31; --bg: #f8f6f1; --card: #fff; --bdr: #ddd; --muted: #888; --body: #333; }
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body { font-family: 'Noto Sans JP', sans-serif; background: var(--bg); color: var(--body); padding: 24px 40px; line-height: 1.6; }
+  h1 { font-size: 24px; margin-bottom: 8px; }
+  .summary { font-size: 15px; color: var(--muted); margin-bottom: 20px; }
+  .cat { margin-bottom: 24px; }
+  .cat-title { font-size: 18px; font-weight: 700; color: var(--red); margin-bottom: 8px; padding-bottom: 4px; border-bottom: 2px solid var(--red); }
+  .ex { background: var(--card); border: 1px solid var(--bdr); border-radius: 6px; padding: 12px 16px; margin-bottom: 8px; }
+  .ex-num { font-size: 12px; color: var(--muted); margin-bottom: 4px; }
+  .morph-row { font-family: 'JetBrains Mono', 'Consolas', monospace; font-size: 15px; line-height: 1.8; margin-bottom: 2px; }
+  .gloss-row { font-family: 'JetBrains Mono', 'Consolas', monospace; font-size: 12px; color: var(--muted); line-height: 1.6; margin-bottom: 2px; }
+  .pos-row { font-family: 'JetBrains Mono', 'Consolas', monospace; font-size: 11px; color: #aaa; line-height: 1.6; margin-bottom: 4px; }
+  .trans { font-size: 14px; color: var(--body); }
+  .mmja { background: rgba(200,75,49,.15); color: var(--red); font-weight: 700; padding: 1px 4px; border-radius: 3px; }
+  .prev { background: rgba(0,0,0,.06); font-weight: 600; padding: 1px 4px; border-radius: 3px; border-bottom: 2px solid var(--red); }
+  table.summary-tbl { border-collapse: collapse; margin-bottom: 16px; }
+  table.summary-tbl th, table.summary-tbl td { padding: 4px 12px; border: 1px solid var(--bdr); font-size: 14px; }
+  table.summary-tbl th { background: #eee; font-weight: 600; }
+  table.summary-tbl td.r { text-align: right; }
+</style>
+</head>
+<body>
+<h1>mmja の直前が非境界形態素である全35例</h1>
+<div class="summary">mmja (n=170) のうち、直前の形態素が境界関連（VAFX, ISP, SFP, CJP, CONJ）でも BOS でもない 35例（20.6%）の全リスト。<br>直前の形態素を <span class="prev">ハイライト</span>、mmja を <span class="mmja">赤</span> で表示。</div>
+
+<table class="summary-tbl">
+<tr><th>直前の品詞</th><th>意味</th><th class="r">例数</th></tr>
+<tr><td><strong>CP</strong></td><td>格助詞</td><td class="r">11</td></tr>
+<tr><td><strong>LP</strong></td><td>副助詞</td><td class="r">5</td></tr>
+<tr><td><strong>INTJ</strong></td><td>間投詞</td><td class="r">3</td></tr>
+<tr><td><strong>V</strong></td><td>動詞</td><td class="r">3</td></tr>
+<tr><td><strong>N</strong></td><td>名詞</td><td class="r">3</td></tr>
+<tr><td><strong>ADV</strong></td><td>副詞</td><td class="r">3</td></tr>
+<tr><td><strong>UNK</strong></td><td>不明</td><td class="r">2</td></tr>
+<tr><td><strong>MP</strong></td><td>モダリティ助詞</td><td class="r">2</td></tr>
+<tr><td><strong>NAFX</strong></td><td>名詞接辞</td><td class="r">1</td></tr>
+<tr><td><strong>CLF</strong></td><td>助数詞</td><td class="r">1</td></tr>
+<tr><td><strong>FN</strong></td><td>形式名詞</td><td class="r">1</td></tr>
+<tr style="border-top:2px solid #999;"><td colspan="2"><strong>合計</strong></td><td class="r"><strong>35</strong></td></tr>
+</table>
+
+<div class="cat">
+<div class="cat-title">CP（格助詞）— 11例</div>
+<div class="ex">
+  <div class="ex-num">#1（発話 41、直前: CP）</div>
+  <div class="morph-row">sɨti i mmja sugu bookuugoo <span class="prev">nkai</span> <span class="mmja">mmja</span></div>
+  <div class="gloss-row">捨てる SEQ DSC DSC 防空壕 ALL DSC</div>
+  <div class="pos-row">V VAFX INTJ INTJ N CP INTJ</div>
+  <div class="trans">hikooki=nu buu=ti fɨɨ-tigaa mmja, unu munu=u mai fa-a-da mmja, unumama sɨti-i mmja, sugu bookuugoo=nkai mmja</div>
+</div>
+<div class="ex">
+  <div class="ex-num">#2（発話 52、直前: CP）</div>
+  <div class="morph-row">mijoobasan ta <span class="prev">ga</span> <span class="mmja">mmja</span> tuur i i u tar</div>
+  <div class="gloss-row">ミヨおばさん PL NOM DSC 通る THM SEQ PROG PST</div>
+  <div class="pos-row">PN NAFX CP INTJ V VAFX VAFX AUX VAFX</div>
+  <div class="trans">mijoobasan-ta-ga mmja tuur-i-i u-tar=ruuda.</div>
+</div>
+<div class="ex">
+  <div class="ex-num">#3（発話 147、直前: CP）</div>
+  <div class="morph-row">mmna <span class="prev">u</span> <span class="mmja">mmja</span> fa i i u tar</div>
+  <div class="gloss-row">みんな ACC DSC 食べる THM SEQ PROG PST</div>
+  <div class="pos-row">N CP INTJ V VAFX VAFX AUX VAFX</div>
+  <div class="trans">mmna=u=mmja fa-i-i u-tar=ca.</div>
+</div>
+<div class="ex">
+  <div class="ex-num">#4（発話 243、直前: CP）</div>
+  <div class="morph-row">kara mai icɨban aparagi munu <span class="prev">nu</span> <span class="mmja">mmja</span> uu fɨ nar i i</div>
+  <div class="gloss-row">ABL ADD 一番 美しい ADJ NOM DSC 大きい SEQ なる THM SEQ</div>
+  <div class="pos-row">CP LP ADV ADJ AAFX CP INTJ ADJ AAFX V VAFX VAFX</div>
+  <div class="trans">mura=kara=mai icɨban aparagi-munu=nu mmja uu-fɨ nar-i-i, nar-i-u-tar=ca.</div>
+</div>
+<div class="ex">
+  <div class="ex-num">#5（発話 268、直前: CP）</div>
+  <div class="morph-row">nzagagara <span class="prev">kara</span> <span class="mmja">mmja</span> mamunu nu idi i ccii</div>
+  <div class="gloss-row">どこか ABL DSC 魔物 NOM 出る SEQ 来る.SEQ</div>
+  <div class="pos-row">N CP INTJ N CP V VAFX V</div>
+  <div class="trans">nzagagara=kara mmja mamunu=nu idi-i ccii=mmja,</div>
+</div>
+<div class="ex">
+  <div class="ex-num">#6（発話 269、直前: CP）</div>
+  <div class="morph-row">tamamiga <span class="prev">u</span> <span class="mmja">mmja</span> sara i i par tar</div>
+  <div class="gloss-row">タマミガ ACC DSC さらう THM SEQ 行く PST</div>
+  <div class="pos-row">N CP INTJ V VAFX VAFX V VAFX</div>
+  <div class="trans">tamamiga=u mmja sara-i-i par-tar=ca.</div>
+</div>
+<div class="ex">
+  <div class="ex-num">#7（発話 275、直前: CP）</div>
+  <div class="morph-row">unu pama n tagu <span class="prev">nu</span> <span class="mmja">mmja</span> nagir ai i</div>
+  <div class="gloss-row">その 浜 DAT 桶 NOM DSC 捨てる PASS SEQ</div>
+  <div class="pos-row">ADN N CP N CP INTJ V VAFX VAFX</div>
+  <div class="trans">unu pama=n tagu=nu mmja nagir-ai-i,</div>
+</div>
+<div class="ex">
+  <div class="ex-num">#8（発話 333、直前: CP）</div>
+  <div class="morph-row">tti mmja uku cɨnu gan <span class="prev">nu</span> <span class="mmja">mmja</span></div>
+  <div class="gloss-row">QUOT DSC 大きい ツノ カニ NOM DSC</div>
+  <div class="pos-row">CJP INTJ ADJ N N CP INTJ</div>
+  <div class="trans">mutagi-i para=tti=mmja uku-cɨnu-gan=nu=mmja</div>
+</div>
+<div class="ex">
+  <div class="ex-num">#9（発話 335、直前: CP）</div>
+  <div class="morph-row">agai kuri kuri <span class="prev">u</span> <span class="mmja">mmja</span> kunu pac cu jukusɨ tu</div>
+  <div class="gloss-row">あら SPE 3SG ACC DSC この 足 ACC どかす COND</div>
+  <div class="pos-row">INTJ INTJ PRN CP INTJ ADN N CP V VAFX</div>
+  <div class="trans">agai kuri kuri=u=mmja kunu pac=cu jukusɨ-tu=mmja ba=a</div>
+</div>
+<div class="ex">
+  <div class="ex-num">#10（発話 431、直前: CP）</div>
+  <div class="morph-row">pai <span class="prev">kara</span> <span class="mmja">mmja</span> mm mai makas i i</div>
+  <div class="gloss-row">畑 ABL DSC イモ ADD 抜く THM SEQ</div>
+  <div class="pos-row">N CP INTJ N LP V VAFX VAFX</div>
+  <div class="trans">pai=kara=mmja mm=mai makas-i-i fɨɨ.</div>
+</div>
+<div class="ex">
+  <div class="ex-num">#11（発話 724、直前: CP）</div>
+  <div class="morph-row">ka i ba ju uri <span class="prev">u</span> <span class="mmja">mmja</span> ssabiki tur i i</div>
+  <div class="gloss-row">VLZ THM CSL COR 3SG ACC DSC 綺麗にする 取る THM SEQ</div>
+  <div class="pos-row">AAFX VAFX VAFX SFP PRN CP INTJ V V VAFX VAFX</div>
+  <div class="trans">imi-ka-i-ba=ju, uri=u=mmja ssabiki tur-i-i</div>
+</div>
+</div>
+
+<div class="cat">
+<div class="cat-title">LP（副助詞）— 5例</div>
+<div class="ex">
+  <div class="ex-num">#12（発話 40、直前: LP）</div>
+  <div class="morph-row">fa i u i ba <span class="prev">mai</span> <span class="mmja">mmja</span> sugu</div>
+  <div class="gloss-row">食べる THM PROG THM CSL ADD DSC DSC</div>
+  <div class="pos-row">V VAFX AUX VAFX VAFX LP INTJ INTJ</div>
+  <div class="trans">a moo munuu fa-i-u-i-ba=mai, mmja sugu</div>
+</div>
+<div class="ex">
+  <div class="ex-num">#13（発話 93、直前: LP）</div>
+  <div class="morph-row">mZZ n mai juu n <span class="prev">mai</span> <span class="mmja">mmja</span> kajuv tar kajuv tar ca</div>
+  <div class="gloss-row">３ CLF ADD 4 CLF ADD DSC 通う PST 通う PST HS</div>
+  <div class="pos-row">NUM CLF LP NUM CLF LP INTJ V VAFX V VAFX SFP</div>
+  <div class="trans">mata icɨ-icɨ mZZ=n=mai juu=n=mai mmja kajuv-tar kajuv-tar=ca.</div>
+</div>
+<div class="ex">
+  <div class="ex-num">#14（発話 134、直前: LP）</div>
+  <div class="morph-row">zin nu <span class="prev">mai</span> <span class="mmja">mmja</span> tur a djaan ti</div>
+  <div class="gloss-row">お金 ACC ADD DSC 取る THM NEG.INT QUOT</div>
+  <div class="pos-row">N CP LP INTJ V VAFX VAFX CJP</div>
+  <div class="trans">zin=nu=mai=mmja tur-a-djaan=ti</div>
+</div>
+<div class="ex">
+  <div class="ex-num">#15（発話 135、直前: LP）</div>
+  <div class="morph-row">ukka u <span class="prev">mai</span> <span class="mmja">mmja</span> tur a t tar ca</div>
+  <div class="gloss-row">借金 ACC ADD DSC 取る THM NEG PST HS</div>
+  <div class="pos-row">N CP LP INTJ V VAFX VAFX VAFX SFP</div>
+  <div class="trans">ukka=u=mai=mmja tur-a-t-tar=ca.</div>
+</div>
+<div class="ex">
+  <div class="ex-num">#16（発話 435、直前: LP）</div>
+  <div class="morph-row">mai mata zjautuu na mm <span class="prev">mai</span> <span class="mmja">mmja</span></div>
+  <div class="gloss-row">ADD また 上等 COP イモ ADD DSC</div>
+  <div class="pos-row">LP CONJ ADJ AUX N LP INTJ</div>
+  <div class="trans">mm=ma XXX mmja unu damina mm=mai mata zjautuu=na mm=mai=mmja</div>
+</div>
+</div>
+
+<div class="cat">
+<div class="cat-title">INTJ（間投詞）— 3例</div>
+<div class="ex">
+  <div class="ex-num">#17（発話 19、直前: INTJ）</div>
+  <div class="morph-row"><span class="prev">agerusaa</span> <span class="mmja">mmja</span> uimu u fii tigaa mmja</div>
+  <div class="gloss-row">あげるさ DSC おいも ACC あげる COND DSC</div>
+  <div class="pos-row">INTJ INTJ N CP V VAFX INTJ</div>
+  <div class="trans">agerusaa. mmja uimu=u fii-tigaa mmja,</div>
+</div>
+<div class="ex">
+  <div class="ex-num">#18（発話 362、直前: INTJ）</div>
+  <div class="morph-row">mmja <span class="prev">unu</span> <span class="mmja">mmja</span></div>
+  <div class="gloss-row">DSC FIL DSC</div>
+  <div class="pos-row">INTJ INTJ INTJ</div>
+  <div class="trans">mmja unu mmja</div>
+</div>
+<div class="ex">
+  <div class="ex-num">#19（発話 706、直前: INTJ）</div>
+  <div class="morph-row"><span class="prev">aa</span> <span class="mmja">mmja</span></div>
+  <div class="gloss-row">ああ DSC</div>
+  <div class="pos-row">INTJ INTJ</div>
+  <div class="trans">aa mmja</div>
+</div>
+</div>
+
+<div class="cat">
+<div class="cat-title">V（動詞）— 3例</div>
+<div class="ex">
+  <div class="ex-num">#20（発話 25、直前: V）</div>
+  <div class="morph-row">hiitai mmi n <span class="prev">fii</span> <span class="mmja">mmja</span> banti a onaka a mici</div>
+  <div class="gloss-row">兵隊 PL DAT あげる.SEQ DSC EXCL TOP お腹 TOP 満ちる</div>
+  <div class="pos-row">N NAFX CP V INTJ PRN ISP N ISP V</div>
+  <div class="trans">hiitai-mmi=n fii mmja, banti=a onaka=a mici=a mii-t-ta-m.</div>
+</div>
+<div class="ex">
+  <div class="ex-num">#21（発話 263、直前: V）</div>
+  <div class="morph-row">mmja tagu u <span class="prev">mucii</span> <span class="mmja">mmja</span> im nu pama n ifɨ</div>
+  <div class="gloss-row">DSC 桶 ACC 持って DSC 海 GEN 浜 DAT 行く</div>
+  <div class="pos-row">INTJ N CP V INTJ N CP N CP V</div>
+  <div class="trans">mmja tagu=u mucii=mmja, im=nu pama=n ifɨ-tar=ca irav=nu pama=nkai.</div>
+</div>
+<div class="ex">
+  <div class="ex-num">#22（発話 268、直前: V）</div>
+  <div class="morph-row">mmja mamunu nu idi i <span class="prev">ccii</span> <span class="mmja">mmja</span></div>
+  <div class="gloss-row">DSC 魔物 NOM 出る SEQ 来る.SEQ DSC</div>
+  <div class="pos-row">INTJ N CP V VAFX V INTJ</div>
+  <div class="trans">nzagagara=kara mmja mamunu=nu idi-i ccii=mmja,</div>
+</div>
+</div>
+
+<div class="cat">
+<div class="cat-title">N（名詞）— 3例</div>
+<div class="ex">
+  <div class="ex-num">#23（発話 65、直前: N）</div>
+  <div class="morph-row">mata <span class="prev">mihana</span> <span class="mmja">mmja</span> mizɨ gama sii sugu cjakucjaku</div>
+  <div class="gloss-row">また 顔 DSC 水 DIM INS DSC ONM</div>
+  <div class="pos-row">CONJ N INTJ N NAFX CP INTJ INTJ</div>
+  <div class="trans">mata mihana mmja mizɨ-gama=sii sugu cjakucjaku=tii ara-i-i,</div>
+</div>
+<div class="ex">
+  <div class="ex-num">#24（発話 78、直前: N）</div>
+  <div class="morph-row">aidu mjaaku <span class="prev">pZtu</span> <span class="mmja">mmja</span> zin na kari i utui</div>
+  <div class="gloss-row">すると 宮古 人 DSC お金 ACC2 借りる SEQ CRCM</div>
+  <div class="pos-row">CONJ N N INTJ N CP V VAFX AUX</div>
+  <div class="trans">aidu mjaaku-pZtu mmja zin-na kari-i utui-i,</div>
+</div>
+<div class="ex">
+  <div class="ex-num">#25（発話 759、直前: N）</div>
+  <div class="morph-row">asɨtarjaa du <span class="prev">saisju</span> <span class="mmja">mmja</span> jumunu nu nee ti ik</div>
+  <div class="gloss-row">すると FOC 最初 DSC ネズミ GEN 子 QUOT 行く</div>
+  <div class="pos-row">CONJ ISP N INTJ N CP N CJP V</div>
+  <div class="trans">asɨtarjaa=du saisju=mmja jumunu=nu nee=ti ik-i-i,</div>
+</div>
+</div>
+
+<div class="cat">
+<div class="cat-title">ADV（副詞）— 3例</div>
+<div class="ex">
+  <div class="ex-num">#26（発話 68、直前: ADV）</div>
+  <div class="morph-row"><span class="prev">maantii</span> <span class="mmja">mmja</span> sjeisjunzidai tii ja njaa n</div>
+  <div class="gloss-row">本当に DSC 青春時代 QUOT TOP ない NEG</div>
+  <div class="pos-row">ADV INTJ N CJP ISP V VAFX</div>
+  <div class="trans">maantii mmja sjeisjunzidai=tii=ja njaa-n banti=a.</div>
+</div>
+<div class="ex">
+  <div class="ex-num">#27（発話 166、直前: ADV）</div>
+  <div class="morph-row">aidu mmja <span class="prev">maanti</span> <span class="mmja">mmja</span></div>
+  <div class="gloss-row">すると DSC 本当に DSC</div>
+  <div class="pos-row">CONJ INTJ ADV INTJ</div>
+  <div class="trans">aidu=mmja maanti=mmja</div>
+</div>
+<div class="ex">
+  <div class="ex-num">#28（発話 173、直前: ADV）</div>
+  <div class="morph-row"><span class="prev">issjookenmei</span> <span class="mmja">mmja</span> patarak i i</div>
+  <div class="gloss-row">一生懸命 DSC 働く THM SEQ</div>
+  <div class="pos-row">ADV INTJ V VAFX VAFX</div>
+  <div class="trans">issjookenmei=mmja patarak-i-i,</div>
+</div>
+</div>
+
+<div class="cat">
+<div class="cat-title">UNK（不明）— 2例</div>
+<div class="ex">
+  <div class="ex-num">#29（発話 21、直前: UNK）</div>
+  <div class="morph-row">mata fii <span class="prev">narootigaa</span> <span class="mmja">mmja</span> cc i i mata tak</div>
+  <div class="gloss-row">また あげる NA DSC 来る THM SEQ また 立つ</div>
+  <div class="pos-row">CONJ V UNK INTJ V VAFX VAFX INTJ V</div>
+  <div class="trans">mata fii narootigaa mmja, cc-i-i, mata tak-i-ba mmja,</div>
+</div>
+<div class="ex">
+  <div class="ex-num">#30（発話 435、直前: UNK）</div>
+  <div class="morph-row">mm ma <span class="prev">X</span> <span class="mmja">mmja</span> unu damina mm mai mata</div>
+  <div class="gloss-row">イモ TOP X DSC FIL ダメな イモ ADD また</div>
+  <div class="pos-row">N CP UNK INTJ INTJ ADJ N LP CONJ</div>
+  <div class="trans">mm=ma XXX mmja unu damina mm=mai mata zjautuu=na mm=mai=mmja</div>
+</div>
+</div>
+
+<div class="cat">
+<div class="cat-title">MP（モダリティ助詞）— 2例</div>
+<div class="ex">
+  <div class="ex-num">#31（発話 302、直前: MP）</div>
+  <div class="morph-row">unu nausi ga mafɨ tar <span class="prev">gagara</span> <span class="mmja">mmja</span></div>
+  <div class="gloss-row">FIL どのように FOC 巻く PST DUB DSC</div>
+  <div class="pos-row">INTJ ADV ISP V VAFX MP INTJ</div>
+  <div class="trans">unu nausi=ga mafɨ-tar=gagara=mmja</div>
+</div>
+<div class="ex">
+  <div class="ex-num">#32（発話 400、直前: MP）</div>
+  <div class="morph-row">taa ga tur tar <span class="prev">gagara</span> <span class="mmja">mmja</span></div>
+  <div class="gloss-row">誰 NOM 取る PST DUB DSC</div>
+  <div class="pos-row">PRN CP V VAFX MP INTJ</div>
+  <div class="trans">taa=ga tur-tar=gagara=mmja</div>
+</div>
+</div>
+
+<div class="cat">
+<div class="cat-title">NAFX（名詞接辞）— 1例</div>
+<div class="ex">
+  <div class="ex-num">#33（発話 13、直前: NAFX）</div>
+  <div class="morph-row">aidu mmja hiitai <span class="prev">taa</span> <span class="mmja">mmja</span></div>
+  <div class="gloss-row">それで DSC 兵隊 PL DSC</div>
+  <div class="pos-row">CONJ INTJ N NAFX INTJ</div>
+  <div class="trans">aidu mmja hiitai-taa mmja</div>
+</div>
+</div>
+
+<div class="cat">
+<div class="cat-title">CLF（助数詞）— 1例</div>
+<div class="ex">
+  <div class="ex-num">#34（発話 343、直前: CLF）</div>
+  <div class="morph-row">mmja uku birafɨ nu piti <span class="prev">cɨ</span> <span class="mmja">mmja</span> unu kuzumi a sui i</div>
+  <div class="gloss-row">DSC 大きい 籠 GEN 1 CLF DSC FIL 小爪 ACC2 削ぐ SEQ</div>
+  <div class="pos-row">INTJ ADJ N CP NUM CLF INTJ INTJ N CP V VAFX</div>
+  <div class="trans">mmja uku-birafɨ=nu piti-cɨ=mmja unu kuzumi=a sui-i=ja.</div>
+</div>
+</div>
+
+<div class="cat">
+<div class="cat-title">FN（形式名詞）— 1例</div>
+<div class="ex">
+  <div class="ex-num">#35（発話 459、直前: FN）</div>
+  <div class="morph-row">mata mm pur ga ifɨ <span class="prev">tukja</span> <span class="mmja">mmja</span> mm nu tar a dakaa</div>
+  <div class="gloss-row">また イモ 掘る PUR 行く 時 DSC イモ GEN 足りる THM NEG;COND</div>
+  <div class="pos-row">CONJ N V VAFX V FN INTJ N CP V VAFX VAFX</div>
+  <div class="trans">tamunu=sɨ-ga ifɨ tukja=mai mata mm pur-ga ifɨ tukja=mmja mm=nu tar-a-dakaa mm pur-ga ifɨ.</div>
+</div>
+</div>
+
+</body>
+</html>
